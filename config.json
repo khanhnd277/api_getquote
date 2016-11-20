@@ -1,0 +1,35 @@
+{
+    "home": {
+        "port": 6996,
+        "driver": "mssql",
+        "user": "sa",
+        "database": "dbias_tc_dev",
+        "password": "123456",
+        "host": "192.168.1.105",
+        "signature": "tcsys12345",
+        "enc": {
+            "passPhrase": "DidierDrogba",
+            "jwt_prefix": "Bearer"
+        }
+    },
+
+    "dev": {
+        "port": 8080,
+        "driver": "mssql",
+        "user": "tcsystem",
+        "database": "dbias_tc_dev",
+        "password": "tcsystem",
+        "host": "172.16.1.246",
+        "signature": "tcsys12345",
+        "enc": {
+            "passPhrase": "DidierDrogba",
+            "jwt_prefix": "Bearer"
+        }
+    },
+
+    "production": {
+        "driver": "mysql",
+        "user": "root",
+        "database": "myapp"
+    }
+}
